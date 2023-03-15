@@ -9,10 +9,10 @@ formulario.addEventListener(`submit`, (e) => {
 });
 
 function leerdatos() {
-    nombre = document.getElementById(`nombre`).value;
-    correo = document.getElementById(`correo`).value;
-    mensaje = document.getElementById(`textarea`).value;
-    alert("nombre");
+    nombre = document.getElementById(`nombre`),values;
+    correo = document.getElementById(`correo`).values;
+    mensaje = document.getElementById(`textarea`).values;
+    alert(`error`);
     validardatos(nombre, correo, mensaje);
     guardarlocalstorage(nombre, correo, mensaje);
 
@@ -22,7 +22,7 @@ function leerdatos() {
 
 function validardatos(nombre, correo, mensaje) {
 if (nombre.length == 0 || correo.length == 0 || mensaje.length == 0) {
-        alert("error")
+        alert(`error`)
     
     }
 
