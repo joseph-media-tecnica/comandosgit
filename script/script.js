@@ -3,16 +3,14 @@ let nonbre, correo, mensaje;
 let formulario = document.getElementById(`form`);
 
 formulario.addEventListener(`submit`, (e) => {
-    console.log(`hola`);
-    e.defaultPrevented();
+    e.preventDefault();
     leerdatos()
 });
 
 function leerdatos() {
-    nombre = document.getElementById(`nombre`),values;
-    correo = document.getElementById(`correo`).values;
-    mensaje = document.getElementById(`textarea`).values;
-    alert(`error`);
+    nombre = document.getElementById(`nombre`).value;
+    correo = document.getElementById(`correo`).value;
+    mensaje = document.getElementById(`textarea`).value;
     validardatos(nombre, correo, mensaje);
     guardarlocalstorage(nombre, correo, mensaje);
 
@@ -21,9 +19,13 @@ function leerdatos() {
 
 
 function validardatos(nombre, correo, mensaje) {
-if (nombre.length == 0 || correo.length == 0 || mensaje.length == 0) {
-        alert(`error`)
-    
+    if (nombre.length == 0 || correo.length == 0 || mensaje.length == 0) {
+         Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'falta informacion',
+            footer: '<a href="">Why do I have this issue?</a>'
+          })  
     }
 
 };
@@ -34,10 +36,10 @@ function guardarlocalstorage(nombre, correo, mensaje) {
     localStorage.setItem(`mensaje`, mensaje);
     listardatos(nombre, correo, mensaje);
 };
-function listardatos(nombre, correo, mensaje) {
-    let nombreus = localStorage.getItem(`nombre`,);
-    let correous = localStorage.getItem(`correo`,);
-    let mensajeus = localStorage.getItem(`mensaje`,);
+function listardatos() {
+    let nombreUsu = localStorage.getItem(`nombre`);
+    let correoUsu = localStorage.getItem(`correo`);
+    let mensajeUsu = localStorage.getItem(`mensaje`);
 };
 
 
