@@ -17,7 +17,7 @@ trabajo de clase con comandos de git
 - etiqueta 7
 ```html <a href=""></a>```para crear un vinculo externo a la pagina
 - etiqueta 8
-```html <textarea name="" id="" cols="30" rows="10"></textarea> ```caja de texto para mucha informacion o mensaje
+```html <textarea name="" cols="30" rows="10"></textarea> ```caja de texto para mucha informacion o mensaje
 - etiqueta 9
 ```html <button></button>```boton interactivo en las paginas
 - etiqueta 10
