@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ 
 <html lang="es">
 
 <head>
@@ -12,46 +12,56 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+           <ul class="menu">
+             <li class="lista" ><a href="./index2.html">inicio</a></li >
+             <li class="lista"><a href="./indexformulario.html">informacion</a></li>
+             <li class="lista lista-r"><a href="./contactenos.html">contactenos</a></li>
+           </ul>
+        </nav>
+  </header>   
     <main>
-        <form action="" id="form"></form>
+        <form action="" id="form">
         <div id="contenedor">
             <div id="contenedor2">
                 <label for="">propietario del vehiculo</label><br>
-                <input type="text" placeholder="propietario del vehiculo" id="caja1">
+                <input type="text" placeholder="propietario del vehiculo" id="propietario" >
             </div>
             <div id="contenedor3">
                 <label for="">modelo del vehiculo</label><br>
-                <input type="text" placeholder=" modelo del vehiculo " id="caja2">
+                <input type="text" placeholder=" modelo del vehiculo " id="modelo" >
             </div>
-            <div id="placa">
+            <div id="placa1">
                 <div>
                     <label for="" class="texto1">placa</label><br>
-                    <input type="text" placeholder="NN-NN-LL" id="caja3">
+                    <input type="text" placeholder="NN-NN-LL" id="placa" >
                 </div>
                 <div>
                     <label for="" class="texto1">tipo vehiculo</label><br>
-                    <input type="text" placeholder="tipo vehiculo" id="caja4">
+                    <input type="text" placeholder="tipo vehiculo" id="tipov" >
                 </div>
             </div>
             <div id="fechas">
                 <div>
                     <label for="">fecha de entrada</label><br>
-                    <input type="date" placeholder="dd/mm/aaaa" id="caja5">
+                    <input type="date" placeholder="dd/mm/aaaa" id="fecha">
                 </div>
                 <div>
                     <label for="">hora de inicio</label><br>
-                    <input type="time" placeholder="hh:mm" id="caja6">
+                    <input type="time" placeholder="hh:mm" id="hora">
                 </div>
                 <div>
                     <label for="">cantidad de horas</label><br>
-                    <input type="number" placeholder="cantidad" id="caja7">
+                    <input type="number" placeholder="cantidad" id="cantidad" >
                 </div>
 
             </div>
             <div id="boton">
                 <button type="submit" id="boton2">enviar</button>
             </div>
-        </div>
+         </div>
+    </form>
     </main>
     <script src="./script/script2.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

@@ -125,7 +125,7 @@ justify-content: center;
 align-items: center;
     
 }
-#placa{
+#placa1{
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -138,7 +138,4 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
-#contenedor{
-border: 10px solid black;
 
-}
