@@ -80,4 +80,104 @@ cuando el elemento inline se encuentra entre dos elementos block,el elemento inl
 ## -display inline-block
 es na conbinacion entre los dos elementos mencionados anteriormente,los elementos con el valor inline-block admiten dimensiones pero todavia son elementos en linea,es decir estaran colocados uno al lado del otro
 
-## 4. mostrar en la consulta anterior de las etiquetas cuales son etiquetas block,inline e inline block
+## 4. mostrar en la consulta anterior de las etiquetas cuales son etiquetas block,inline e inline-block
+
+# R/:
+ninguna de las etiquetas anteriores corresponden al tipo block,incline o incline-block
+
+## 5. Consultar cuales son los eventos en JavaScript.
+
+# - abort (onabort)
+Este evento se produce cuando un usuario detiene la carga de una imagen, ya sea porque detiene la carga de la página o porque realiza una acción que la detiene, como por ejemplo irse de la página.
+
+
+# - blur (onblur)
+Se desata un evento onblur cuando un elemento pierde el foco de la aplicación. El foco de la aplicación es el lugar donde está situado el cursor, por ejemplo puede estar situado sobre un campo de texto, una página, un botón o cualquier otro elemento.
+
+
+# - change (onchange)
+Se desata este evento cuando cambia el estado de un elemento de formulario, en ocasiones no se produce hasta que el usuario retira el foco de la aplicación del elemento. Javascript 1.0
+
+
+# - click (onclick)
+Se produce cuando se da una pulsación o clic al botón del ratón sobre un elemento de la página, generalmente un botón o un enlace.
+
+
+# - dragdrop (ondragdrop)
+Se produce cuando un usuario suelta algo que había arrastrado sobre la página web.
+
+
+# - error (onerror)
+Se produce cuando no se puede cargar un documento o una imagen y esta queda rota.
+
+
+# - focus (onfocus)
+El evento onfocus es lo contrario de onblur. Se produce cuando un elemento de la página o la ventana ganan el foco de la aplicación.
+
+
+# - keydown (onkeydown)
+Este evento se produce en el instante que un usuario presiona una tecla, independientemente que la suelte o no. Se produce en el momento de la pulsación.
+
+
+# - keypress (onkeypress)
+Ocurre un evento onkeypress cuando el usuario deja pulsada una tecla un tiempo determinado. Antes de este evento se produce un onkeydown en el momento que se pulsa la tecla..
+
+
+# - keyup (onkeyup)
+Se produce cuando el usuario deja de apretar una tecla. Se produce en el momento que se libera la tecla.
+
+
+# - load (onload)
+Este evento se desata cuando la página, o en Javascript 1.1 las imágenes, ha terminado de cargarse.
+
+
+# - mousedown (onmousedown)
+Se produce el evento onmousedown cuando el uuario pulsa sobre un elemento de la página. onmousedown se produce en el momento de pulsar el botón, se suelte o no.
+
+
+# - mousemove (onmousemove)
+Se produce cuando el ratón se mueve por la página.
+
+
+# - mouseout (onmouseout)
+Se desata un evento onmuoseout cuando el puntero del ratón sale del área ocupada por un elemento de la página.
+
+
+# - mouseover (onmouseover)
+Este evento se desata cuando el puntero del ratón entra en el área ocupada por un eolemento de la página.
+
+
+# - mouseup (onmouseup)
+Este evento se produce en el momento que el usuario suelta el botón del ratón, que previamente había pulsado.
+
+
+# - move (onmove)
+Evento que se ejecuta cuando se mueve la ventana del navegador, o un frame.
+
+
+# - resize (onresize)
+Evento que se produce cuando se redimensiona la ventana del navegador, o el frame, en caso de que la página los tenga.
+
+
+# - reset (onreset)
+Este evento está asociado a los formularios y se desata en el momento que un usuario hace clic en el botón de reset de un formulario.
+
+
+# - select (onselect)
+Se ejecuta cuando un usuario realiza una selección de un elemento de un formulario.
+Javascript 1.0
+
+# - submit (onsubmit)
+Ocurre cuando el visitante apreta sobre el botón de enviar el formulario. Se ejecuta antes del envío propiamente dicho.
+
+
+# - unload (onunload)
+Al abandonar una página, ya sea porque se pulse sobre un enlace que nos lleve a otra página o porque se cierre la ventana del navegador, se ejecuta el evento onunload.
+
+## 6. Consultar que son los selectores simples y los compuestos.
+
+# selectores simples:
+Un selector simple es aquel que está formado sólo por una única cadena textual, sin ningún combinador.
+
+# selectores compuestos:
+Es un patrón de elementos y otros términos que indican al navegador qué elementos HTML se seleccionan para aplicarles una regla que incluye los valores de las propiedades CSS.
